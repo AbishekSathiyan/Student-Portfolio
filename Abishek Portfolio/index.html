@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abishek S - Student Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="profile-image">
+                    <img src="assets/images/Mine.jpg" alt="Abishek S">
+                </div>
+                <div class="header-text">
+                    <h1>Abishek S</h1>
+                    <p>Masters in Computer Applications</p>
+                    <p>Karpagam University</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                    <li><a href="#education">Education</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects <i class="fas fa-project-diagram"></i></h2>
+            <div class="project-list">
+                <!-- Example Project -->
+                <div class="card project-item">
+                    <h3>Govern Superintendent System</h3>
+                    <p>The Govern Superintendent System is a robust application developed using VB.NET and Microsoft Access database 
+                        technology to streamline the management of government administrative tasks. The system is designed to 
+                        efficiently handle various functions such as tracking official assignments, managing personnel records,
+                         and facilitating communication between government departments. Utilizing VB.NET, the application offers
+                          a user-friendly interface with interactive forms and controls, ensuring ease of use and accessibility 
+                          for users with varying technical backgrounds. The integration with Microsoft Access provides a reliable
+                           backend for data storage, allowing for seamless data entry, retrieval, and manipulation. Features
+                            include automated report generation, real-time data updates, and secure data access controls. 
+                            The system supports multi-user environments, enabling multiple administrators to work concurrently
+                             with synchronized data. Its modular design ensures scalability and adaptability to evolving requirements,
+                              making it a versatile solution for managing complex administrative workflows in government settings. With
+                               its focus on efficiency and accuracy, the Govern Superintendent System enhances administrative operations
+                               , reducing manual workload and improving overall productivity.</p>
+                </div>
+            </div>
+            <button id="addProjectBtn" class="btn add-btn">Add Project</button>
+        </section>
+
+        <!-- Blogs Section -->
+        <section id="blogs">
+            <h2>Blogs <i class="fas fa-blog"></i></h2>
+            <div class="blog-list">
+                <!-- Example Blog -->
+                <div class="card blog-item">
+                    <h3>Blog Title</h3>
+                    <p>Summary of the blog...</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <button id="addBlogBtn" class="btn add-btn">Add Blog</button>
+        </section>
+<!-- Add Project Form -->
+<div id="addProjectForm" class="hidden">
+    <form id="projectForm">
+        <label for="projectTitle">Title:</label>
+        <input type="text" id="projectTitle" required>
+        <label for="projectDescription">Description:</label>
+        <textarea id="projectDescription" required></textarea>
+        <button type="submit" class="btn">Add Project</button>
+        <button type="button" id="closeProjectForm" class="btn">Close</button>
+    </form>
+</div>
+
+<!-- Add Blog Form -->
+<div id="addBlogForm" class="hidden">
+    <form id="blogForm">
+        <label for="blogTitle">Title:</label>
+        <input type="text" id="blogTitle" required>
+        <label for="blogSummary">Summary:</label>
+        <textarea id="blogSummary" required></textarea>
+        <button type="submit" class="btn">Add Blog</button>
+        <button type="button" id="closeBlogForm" class="btn">Close</button>
+    </form>
+</div>
+
+<!-- Add Education Form -->
+<div id="addEducationForm" class="hidden">
+    <form id="educationForm">
+        <label for="educationDegree">Degree:</label>
+        <input type="text" id="educationDegree" required>
+        <label for="educationInstitution">Institution:</label>
+        <input type="text" id="educationInstitution" required>
+        <label for="educationGraduation">Graduation:</label>
+        <input type="text" id="educationGraduation" required>
+        <button type="submit" class="btn">Add Education</button>
+        <button type="button" id="closeEducationForm" class="btn">Close</button>
+    </form>
+</div>
+
+        <!-- Education Section -->
+        <!-- Add Education Form -->
+<div id="addEducationForm" class="hidden">
+    <form id="educationForm">
+        <label for="educationDegree">Degree:</label>
+        <input type="text" id="educationDegree" required>
+        <label for="educationInstitution">Institution:</label>
+        <input type="text" id="educationInstitution" required>
+        <label for="educationGraduation">Graduation:</label>
+        <input type="text" id="educationGraduation" required>
+        <button type="submit" class="btn">Add Education</button>
+        <button type="button" id="closeEducationForm" class="btn">Close</button>
+    </form>
+</div>
+
+<section id="education">
+    <h2>Education <i class="fas fa-graduation-cap"></i></h2>
+    <div id="educationList" class="education-list">
+        <!-- Education items will be added here -->
+    </div>
+    <button id="addEducationBtn" class="btn add-btn">Add Education</button>
+</section>
+
+        <section id="education">
+            <h2>Education <i class="fas fa-graduation-cap"></i></h2>
+            <div class="education-list">
+                <!-- Example Education -->
+                <div class="card education-item">
+                    <h3>Bachelor of Computer Applications</h3>
+                    <p>Caussanel College of Arts & Science, Alagappa University</p>
+                    <p>Graduated: August 2023</p>
+                </div>
+                <div class="card education-item">
+                    <h3>Master of Computer Applications</h3>
+                    <p>Karpagam University</p>
+                    <p>Expected Graduation: 2025</p>
+                </div>
+            </div>
+            <button id="addEducationBtn" class="btn add-btn">Add Education</button>
+        </section>
+    </main>
+
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Abishek S - Student Portfolio. All rights reserved.</p>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/abishek-sathiyan-54a237240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/AbishekSathiyan/githumabi1" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/entabilogist_abi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
