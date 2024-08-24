@@ -176,15 +176,6 @@ After completing all the steps to set up and serve your Student Portfolio site l
 #### **Step 10: Reporting and Documenting**
 Documenting your process and any issues encountered is essential for future reference or for sharing with others who may work on the project.
 
-1. **Create a Project Report:**
-   - Include a summary of the steps you followed to set up and run the project.
-   - Note any issues you encountered and how you resolved them.
-
-2. **Include Screenshots:**
-   - Capture screenshots of your site running locally, including any terminal output that shows the server running and any errors encountered.
-
-3. **Save Logs:**
-   - If you encountered errors, save the terminal logs as they can be useful for troubleshooting or for reporting issues to others.
 
 
 By following these All steps, you’ll ensure that My documented for future reference. This comprehensive testing and troubleshooting process will help you confidently deploy my project to a live environment.
