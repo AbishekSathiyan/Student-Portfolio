@@ -156,9 +156,9 @@ After completing all the steps to set up and serve your Student Portfolio site l
 
 1. **Port Conflicts:**
    - If you receive an error about the port being in use, change the port using:
-     ```bash
+     
      serve -l 5000
-     ```
+    
    - Then, access My site via `http://localhost:5000`.
 
 2. **File Not Found Errors:**
@@ -173,9 +173,11 @@ After completing all the steps to set up and serve your Student Portfolio site l
 5. **Network Address Access:**
    - If you’re trying to access your site using the network address from another device on the same network and it’s not working, ensure that your firewall allows traffic on the specified port.
 
+
 #### **Step 10: Reporting and Documenting**
-Documenting your process and any issues encountered is essential for future reference or for sharing with others who may work on the project.
+Documenting my process and any issues encountered is essential for future reference or for sharing with others who may work on the project.
 
 
+Portfolio Screenshot 
 
-By following these All steps, you’ll ensure that My documented for future reference. This comprehensive testing and troubleshooting process will help you confidently deploy my project to a live environment.
+![Portfolio Screenshot](https://github.com/user-attachments/assets/81725146-00eb-4a42-8c36-88e3f11ba3ea)
